@@ -1,0 +1,61 @@
+----------------------------------------------- 2021-11-09 15:53:54.014590
+UDP message sent (397 bytes):
+
+REGISTER sip:10.54.81.66 SIP/2.0
+Via: SIP/2.0/UDP 10.54.81.66:15070;branch=z9hG4bK-2209743-1-0
+From: <sip:test895187951711567647677@phone.plivo.com>;tag=1
+To: <sip:test895187951711567647677@phone.plivo.com>
+Call-ID: 1-2209743@10.54.81.66
+CSeq: 1 REGISTER
+Contact: sip:test895187951711567647677@10.54.81.66:15070
+Max-Forwards: 70
+Expires: 1800
+User-Agent: SIPp/Linux
+Content-Length: 0
+
+
+----------------------------------------------- 2021-11-09 15:53:54.016154
+UDP message received [458] bytes :
+
+SIP/2.0 401 Authorization Required
+Via: SIP/2.0/UDP 10.54.81.66:15070;branch=z9hG4bK-2209743-1-0
+From: <sip:test895187951711567647677@phone.plivo.com>;tag=1
+To: <sip:test895187951711567647677@phone.plivo.com>;tag=2209123SIPpTag011
+Call-ID: 1-2209743@10.54.81.66
+CSeq: 1 REGISTER
+Contact: <sip:10.54.81.66:15088;transport=UDP>
+WWW-Authenticate: Digest realm="phone.plivo.com", nonce="47ebe028cda119c35d4877b383027d28da013815"
+Content-Length:     0
+
+
+----------------------------------------------- 2021-11-09 15:53:54.016345
+UDP message sent (617 bytes):
+
+REGISTER sip:10.54.81.66 SIP/2.0
+Via: SIP/2.0/UDP 10.54.81.66:15070;branch=z9hG4bK-2209743-1-2
+From: <sip:test895187951711567647677@phone.plivo.com>;tag=1
+To: <sip:test895187951711567647677@phone.plivo.com>
+Call-ID: 1-2209743@10.54.81.66
+CSeq: 2 REGISTER
+Contact: sip:test895187951711567647677@10.54.81.66:15070
+Authorization: Digest username="test895187951711567647677",realm="phone.plivo.com",uri="sip:10.54.81.66:15088",nonce="47ebe028cda119c35d4877b383027d28da013815",response="c61361f58975ab9066ed0eda7976e782",algorithm=MD5
+Max-Forwards: 70
+Expires: 1800
+User-Agent: SIPp/Linux
+Content-Length: 0
+
+
+----------------------------------------------- 2021-11-09 15:53:54.017293
+UDP message received [331] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.54.81.66:15070;branch=z9hG4bK-2209743-1-2
+From: <sip:test895187951711567647677@phone.plivo.com>;tag=1
+To: <sip:test895187951711567647677@phone.plivo.com>;tag=1
+Call-ID: 1-2209743@10.54.81.66
+CSeq: 2 REGISTER
+Contact: <sip:10.54.81.66:15088;transport=UDP>
+Content-Length: 0
+Expires: 60
+
+

@@ -1,0 +1,25 @@
+Python 3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+===================== RESTART: D:\plivo\callDetailsSIPP.py =====================
+Start Time = 1636543381.0824573
+SSH session opened for 10.54.81.66
+SSH session opened for 10.54.81.66
+SSH session opened for 10.54.81.66
+inside executeinside execute  ['cd tc && /ats/bin/sipp -sf /home/vkonreddi/tc/uas.xml -i 10.54.81.66 -p 15088  -inf /home/vkonreddi/tc/call.csv 10.54.81.66:15070 -m 1  -screen_file /home/vkonreddi/tc/uas_screen_file -trace_screen -trace_msg -message_file /home/vkonreddi/tc/uas_messages.log']['cd tc && /ats/bin/sipp -sf /home/vkonreddi/tc/uac.xml -i 10.54.81.66 -p 15070  -inf /home/vkonreddi/tc/call.csv 10.54.81.66:15088 -m 1  -trace_msg -message_file /home/vkonreddi/tc/uac_messages.log']
+
+Waiting for processWaiting for process  26986432698642
+
+Waiting for process 2698643 to completeWaiting for process 2698642 to complete
+
+Command execution for process 2698642 Completed.Command execution for process 2698643 Completed.
+
+SSH session is closed
+SSH session is closed
+inside execute ['cd tc && bash vamsi.sh uac_messages.log uas_messages.log uas_screen_file /home/vkonreddi/tc/']
+Waiting for process 2698883
+Waiting for process 2698883 to complete
+Command execution for process 2698883 Completed.
+call details: ['caller received answer at 2021-11-10 16:53:04.368443', 'caller received bye at 2021-11-10 16:53:54.375676', 'callee recived INVITE at 2021-11-10 16:53:04.366824', 'Total call duration  is 00:00:50:007000', '']
+SSH session is closed
+>>> 
